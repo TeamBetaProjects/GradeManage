@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/parent_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idDb"
+        android:text="id"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstNameDb"
+        android:text="First Name"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastNameDb"
+        android:text="Last Name"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/couresDb"
+        android:text="Course"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/creditsDb"
+        android:text="Credits"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/marksDb"
+        android:text="Marks"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"/>
+
+
+
+</LinearLayout>

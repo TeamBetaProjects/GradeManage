@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gradeEntry"
+            android:icon="@drawable/add"
+            android:title="Grade Entry" />
+
+        <item
+            android:id="@+id/viewGrades"
+            android:icon="@drawable/view"
+            android:title="View Grade" />
+
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/search"
+            android:title="Search" />
+
+        <item
+            android:id="@+id/updateEntry"
+            android:icon="@drawable/update"
+            android:title="Update" />
+
+        <item
+            android:id="@+id/deleteEntry"
+            android:icon="@drawable/delete"
+            android:title="Delete" />
+    </group>
+</menu>
